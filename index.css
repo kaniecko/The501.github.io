@@ -1,7 +1,7 @@
 .name {
     text-align: center;
     padding-top: 12rem;
-    font-size: 6vw;
+    font-size: 4.3rem;
     font-weight: normal;
 }
 
@@ -9,13 +9,13 @@
     text-align: center;
     padding-top: 2rem;
     font-weight: bold;
-    font-size: 1.2vw;
+    font-size: 1.2rem;
 }
 
 .face {
     margin-top: 5rem;
     display: block;
-    width: 12vw;
+    width: 10rem;
     height: auto;
     margin-right: auto;
     margin-left: auto;
@@ -27,7 +27,7 @@
 
 .shortDesc {
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.3rem;
     margin-top: 5rem;
     padding-left: 20vmin;
     padding-right: 20vmin;
@@ -35,7 +35,7 @@
 
 .shortDesc2{
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.3rem;
     margin-top: 5rem;
     margin-left: 20vmin;
     margin-right: 20vmin;
