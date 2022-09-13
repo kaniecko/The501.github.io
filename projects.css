@@ -18,17 +18,17 @@ body {
 
 .image {
     flex-basis: 40%; 
-    padding-left: 20vw;
+    padding-left: 10vw;
 }
 
 .text {
     padding-left: 20px;
-    padding-right: 20vw;
-    font-size: 1.3vw;
+    padding-right: 10vw;
+    font-size: .8rem;
 }
 
 .darpet {
-    width:30vw;
+    width:12rem;
     border-top-left-radius: 10px !important;
     border-top-right-radius: 10px !important;
     border-bottom-left-radius: 10px !important;
