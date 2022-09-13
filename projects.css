@@ -18,12 +18,12 @@ body {
 
 .image {
     flex-basis: 40%; 
-    padding-left: 10vw;
+    padding-left: 10vmax;
 }
 
 .text {
     padding-left: 20px;
-    padding-right: 10vw;
+    padding-right: 10vmax;
     font-size: .8rem;
 }
 
