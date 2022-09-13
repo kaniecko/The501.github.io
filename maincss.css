@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
+/*
+TO ADD
+- Same size bubbles
+*/
+
+
 * {
   padding: 0;
   margin: 0;
@@ -24,13 +30,13 @@ html {
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  color: rgb(176, 176, 176);
+  color: rgb(142, 142, 142);
   display:inline-block;
   padding:10px;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.2rem;
 }
 
 /* Change the color of links on hover */
@@ -39,7 +45,7 @@ html {
   border-bottom-left-radius: 35px !important;
   border-top-right-radius: 35px !important;
   border-bottom-right-radius: 35px !important;
-  background-color: rgb(176, 176, 176);
+  background-color: rgb(142, 142, 142);
   color: white;
 }
 
@@ -49,7 +55,7 @@ html {
   border-bottom-left-radius: 35px !important;
   border-top-right-radius: 35px !important;
   border-bottom-right-radius: 35px !important;
-  background-color: rgb(176, 176, 176);
+  background-color: rgb(142, 142, 142);
   color: white;
 }
 
@@ -67,4 +73,12 @@ body {
   width: 100%;
   position: fixed;
   z-index: 100;  
+}
+
+textarea {
+  font-family: 'Lora';
+}
+
+input {
+  font-family: 'Lora';
 }
