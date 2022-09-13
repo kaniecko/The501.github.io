@@ -5,7 +5,7 @@ h1 {
 
 input[type=text], select {
     width: 100%;
-    padding: 12px;
+    padding: 1vmax;
     border: 1px solid rgb(142, 142, 142);
     border-radius: 4px; /*rounded corners*/
     box-sizing: border-box; /* padding and width stays in place */
@@ -55,12 +55,13 @@ textarea[type=messages] {
   
   /*Container settings*/
   .container {
-    border-radius: 5px;
+    align-items: center;
     background-color: white;
     padding-top: 4rem;
-    padding-left: 50rem;
-    padding-right: 50rem;
     font-size: 1.3rem;
+    overflow: hidden;
+    padding-left: 15vw;
+    padding-right: 15vw;
  }
 
  h2 {
@@ -68,6 +69,7 @@ textarea[type=messages] {
 }
  .resumeDownload {
     padding-top: 4rem;
+    padding-bottom: 4rem;
     text-align: center;
  }
 
