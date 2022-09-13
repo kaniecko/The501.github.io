@@ -5,7 +5,7 @@ h1 {
 
 input[type=text], select {
     width: 100%;
-    padding: 1vmax;
+    padding: .5vmax;
     border: 1px solid rgb(142, 142, 142);
     border-radius: 4px; /*rounded corners*/
     box-sizing: border-box; /* padding and width stays in place */
@@ -16,7 +16,7 @@ input[type=text], select {
 
 input[type=email] {
     width: 100%;
-    padding: 12px;
+    padding: .5vmax;
     border: 1px solid rgb(142, 142, 142);
     border-radius: 4px; /*rounded corners*/
     box-sizing: border-box; /* padding and width stays in place */
@@ -27,7 +27,7 @@ input[type=email] {
 
 textarea[type=messages] {
     width: 100%;
-    padding: 12px;
+    padding: .5vmax;
     border: 1px solid rgb(142, 142, 142);
     border-radius: 4px; /*rounded corners*/
     box-sizing: border-box; /* padding and width stays in place */
