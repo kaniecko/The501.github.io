@@ -1,4 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* NAV background color */
+.topnav{
+  text-align:center;
+  background-color: white;
+  overflow: hidden;
+}
+
+.topnav li{
+  display:inline;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: rgb(176, 176, 176);
+  display:inline-block;
+  padding:10px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  border-top-left-radius: 35px !important;
+  border-bottom-left-radius: 35px !important;
+  border-top-right-radius: 35px !important;
+  border-bottom-right-radius: 35px !important;
+  background-color: rgb(176, 176, 176);
+  color: white;
+}
+
+/*active/current link */
+.topnav a.active {
+  border-top-left-radius: 35px !important;
+  border-bottom-left-radius: 35px !important;
+  border-top-right-radius: 35px !important;
+  border-bottom-right-radius: 35px !important;
+  background-color: rgb(176, 176, 176);
+  color: white;
+}
 
 body {
-  
+    font-family: 'Lora';
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-color: white;
+    color: black;
+}
+
+#preloader{
+  background: white url(images/loader.gif) no-repeat center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;  
 }
