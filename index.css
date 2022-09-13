@@ -9,13 +9,13 @@
     text-align: center;
     padding-top: 2rem;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.2vw;
 }
 
 .face {
     margin-top: 5rem;
     display: block;
-    width: 20rem;
+    width: 12vw;
     height: auto;
     margin-right: auto;
     margin-left: auto;
@@ -27,7 +27,7 @@
 
 .shortDesc {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1vw;
     margin-top: 5rem;
     margin-left: 20vw;
     margin-right: 20vw;
@@ -35,7 +35,7 @@
 
 .shortDesc2{
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1vw;
     margin-top: 5rem;
     margin-left: 20vw;
     margin-right: 20vw;
